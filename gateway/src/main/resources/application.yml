@@ -1,0 +1,16 @@
+
+spring:
+  application:
+    name: gateway
+  config:
+    import:
+    - configserver:http://localhost:8888
+
+# server:
+#   port: 8070
+
+# eureka:
+#   client:
+#     region: default
+#     registry-fetch-interval-seconds: 5
+

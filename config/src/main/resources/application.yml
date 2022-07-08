@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: configuration
+  cloud:
+    config:
+      server.git.uri: file:///C:/tmp/m-bootstraping/configuration
+server:
+  port: 8888
+  
+eureka:
+  client:
+    region: default
+    registryFetchIntervalSeconds: 5
